@@ -1,0 +1,107 @@
+.chamada-portfolio {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-top: 3rem;
+}
+
+.portfolio-animation {
+  background: var(--portfolio);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 267.5px;
+  height: 182px;
+  margin: 0 auto;
+}
+
+.chamada-portfolio h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.chamada-portfolio h3 ~ p {
+  margin-bottom: 1rem;
+}
+
+.btn-portfolio {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  font-weight: bold;
+  border: 2px solid var(--text-color);
+  align-self: center;
+  padding: 8px 8px;
+  border-radius: 5px;
+}
+
+.btn-portfolio::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 12px);
+  background-color: var(--bg);
+  transition: 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.btn-portfolio:hover:before {
+  transform: scaleY(0);
+}
+
+.btn-portfolio::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% - 12px);
+  background-color: var(--bg);
+  transition: 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+.btn-portfolio:hover:after {
+  transform: scaleX(0);
+}
+
+.btn-portfolio span {
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .chamada-portfolio {
+    width: 886px;
+    margin: 10rem auto 0;
+    flex-direction: row-reverse;
+  }
+
+  .text-context {
+    width: 480px;
+  }
+
+  .portfolio-animation {
+    background: var(--portfolio);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 240px;
+    margin-left: 1rem;
+  }
+
+  .chamada-portfolio h3 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .chamada-portfolio p {
+    font-size: 20px;
+  }
+
+  .btn-portfolio {
+    margin: 1rem auto;
+  }
+}

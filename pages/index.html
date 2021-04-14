@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/astronaut.svg" type="image/x-icon">
+    <title>Hannah M. Neves | UX/UI Designer</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/header/header.css">
+    <link rel="stylesheet" href="../styles/footer/footer.css">
+    <link rel="stylesheet" href="../styles/home/home.css">
+</head>
+<body>
+    <div class="loader"><span id="gif"></span></div>
+
+    <header class="header">
+        <a href="index.html" class="home">H</a>
+
+        <label class="switch">
+            <input type="checkbox" class="check-dark-mode" checked>
+            <span class="slider round"></span>
+        </label>
+
+        <input id="menu-hamburguer" type="checkbox" class="check-menu">
+        <label for="menu-hamburguer">
+            <div class="menu">
+                <span class="hamburguer"></span>
+            </div>
+        </label>
+        <ul class="lista-menu">
+            <li class="item-menu"><a href="index.html">Páginal Inicial</a></li>
+            <li class="item-menu"><a href="portfolio.html">Portfólio</a></li>
+            <li class="item-menu"><a href="sobre-mim.html">Sobre mim</a></li>
+            <li class="item-menu"><a href="certificados.html">Certificados</a></li>
+            <li class="item-menu"><a href="#">Contato</a></li>
+        </ul>
+    </header>
+    
+    <main class="main">
+        <div class="chamada-desktop">
+            <h1 class="chamada">
+                <p>Saiba mais sobre mim</p>
+            <!-- Setinhas -->
+                <a href="#resumo-sobre-mim" class="scroll-suave">
+                    <div id="arrowAnim">
+                        <div class="arrowSliding">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay1">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay2">
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="arrowSliding delay3">
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Setinhas -->
+            </h1>
+            <section class="resumo-sobre-mim" id="resumo-sobre-mim">
+                <h2>Design <strong>+</strong> Usabilidade</h2>
+                <p>Satisfação em realizar projetos com foco em praticidade para o usuário.</p>
+                <h3>Minhas principais habilidades</h3>
+                <div class="icones">
+                    <span class="icone icone1"></span>
+                    <span class="icone icone2"></span>
+                    <span class="icone icone3"></span>
+                    <span class="icone icone4"></span>
+                    <span class="icone icone5"></span>
+                    <span class="icone icone6"></span>
+                </div>
+                <p>Eu posso te ajudar a criar uma interface <strong>inclusiva</strong> e <strong>responsiva</strong>. Desde a etapa de concepção da idéia até o produto final.</p>
+                <a href="sobre-mim.html" role="button" class="btn-sobre-mim"><span>Saiba mais sobre mim</span></a>
+            </section>
+        </div>
+
+        <section class="chamada-portfolio">
+            <div class="portfolio-animation"></div>
+            <div class="text-content">
+                <h3>Portfólio</h3>
+                <p>Conheça alguns dos meus projetos, dos quais tenho orgulho em mostrar.</p>
+                <a href="portfolio.html" role="button" class="btn-portfolio"><span>Veja meus projetos</span></a>
+            </div>
+        </section>
+
+        <section class="chamada-certificados">
+            <div class="certificados-animation"></div>
+            <div class="text-content">
+                <h3>Certificados</h3>
+                <p>A maior parte do meu conhecimento foi obtida em cursos e na minha experiência durante a graduação.</p>
+                <a href="certificados.html" role="button" class="btn-certificados"><span>Veja meus certificados</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="links">
+            <li class="item-links"><a href="portfolio.html">Portfólio</a></li>
+            <li class="item-links"><a href="sobre-mim.html">Sobre mim</a></li>
+            <li class="item-links"><a href="#">Contato</a></li>
+        </ul>
+    
+        <ul class="contato-link">
+            <li><a href="https://www.linkedin.com/in/hannah-m-neves/" target="_blank"><div class="linkedin"></div></a></li>
+            <li><a href="mailto:hannah.m.neves@gmail.com"><div class="email"></div></a></li>
+        </ul>
+        
+        <p>&copy; 2021 Hannah Marrocos Neves | UX/UI Designer</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="/codes/loadHome.js"></script>
+    <script src="/codes/darkMode.js"></script>
+    <script src="/codes/scrollSuave.js"></script>
+    <script src="/codes/backToTop.js"></script>
+</body>
+</html>

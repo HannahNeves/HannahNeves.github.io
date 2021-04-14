@@ -1,0 +1,140 @@
+.resumo-sobre-mim {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 14rem auto 0;
+}
+
+.resumo-sobre-mim h2 {
+  font-size: 26px;
+  margin: 1rem 0;
+}
+
+.resumo-sobre-mim h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2rem 0 1.5rem;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.icone {
+  background-size: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+.icone1 {
+  background-image: url('../../assets/Illustrations/figma.svg');
+}
+
+.icone2 {
+  background-image: url('../../assets/Illustrations/xd.svg');
+}
+
+.icone3 {
+  background-image: url('../../assets/Illustrations/after-effects.svg');
+}
+
+.icone4 {
+  background-image: url('../../assets/Illustrations/photoshop.svg');
+}
+
+.icone5 {
+  background-image: url('../../assets/Illustrations/html5.svg');
+}
+
+.icone6 {
+  background-image: url('../../assets/Illustrations/css3.svg');
+}
+
+.resumo-sobre-mim h3 ~ p {
+  font-size: var(--texto-menor);
+  margin: 1.5rem 0;
+}
+
+.btn-sobre-mim {
+  position: relative;
+  width: auto;
+  font-weight: bold;
+  border: 2px solid var(--text-color);
+  align-self: center;
+  padding: 8px 8px;
+  border-radius: 5px;
+}
+
+.btn-sobre-mim::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 12px);
+  background-color: var(--bg);
+  transition: 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.btn-sobre-mim:hover:before {
+  transform: scaleY(0);
+}
+
+.btn-sobre-mim::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% - 12px);
+  background-color: var(--bg);
+  transition: 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+.btn-sobre-mim:hover:after {
+  transform: scaleX(0);
+}
+
+.btn-sobre-mim span {
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .resumo-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin: 3rem 0 0;
+  }
+
+  .resumo-sobre-mim h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
+  .resumo-sobre-mim p, .resumo-sobre-mim h3 ~ p, span{
+    font-size: var(--texto-grande);
+  }
+
+  .resumo-sobre-mim h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 2.5rem 0 1.5rem;
+  }
+
+  .icones {
+    width: 340px;
+  }
+
+  .btn-sobre-mim {
+    margin: 1rem 0;
+  }
+}

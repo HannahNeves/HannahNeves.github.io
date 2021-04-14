@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import "dark-mode.css";
+@import "menu.css";
+
+.header {
+  display: flex;
+  width: 90vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem auto 3.5rem;
+}
+
+.home {
+  font-family: 'Arizonia', cursive;
+  font-size: 52px;
+}
+
+@media screen and (min-width: 900px) {
+  .header {
+    margin: 1rem auto 5rem;
+  }
+
+  .home {
+    font-size: 72px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .header {
+    width: 1145px;
+  }
+}

@@ -1,0 +1,75 @@
+:root {
+  --bg: #ffffff;
+  --text-color: #232323;
+  --text-strong: #2B32ED;
+  --active-filter: #B9BBF9;
+  --card-bg: #E3E3E3;
+  --card-shadow: rgba(0, 0, 0, .25);
+  --menu: #2B32ED;
+  --border: #B8B8B8;
+
+  --texto-grande: 1.25rem;
+  --texto-corrido: 1rem;
+  --texto-menor: 0.875rem;
+  --legenda: 0.75rem;
+  --legenda-menor: 0.625rem;
+
+  --sun-mobile: url('/assets/Light mode/sun-mobile.svg');
+  --moon-mobile: url('/assets/Light mode/moon-mobile.svg');
+  --sun-desktop: url('/assets/Light mode/sun-desktop.svg');
+  --moon-desktop: url('/assets/Light mode/moon-desktop.svg');
+
+  --chamada: url('/assets/Light mode/chamada.svg');
+
+  --portfolio: url('/assets/Light mode/portfolio.gif');
+  --certificados: url('/assets/Light mode/certificados.gif');
+
+  --zenit: url('/assets/Light mode/logo-zenit.png');
+
+  --load: url('/assets/Loading/Light mode/load.gif');
+
+  --close-modal: url('/assets/close-button-light.svg');
+
+  --img-project: url('/assets/Light mode/project1.png');
+
+  --em-breve: url('/assets/Light mode/em-breve.svg');
+  --em-breve-animation: url('/assets/Light mode/em-breve-animation.gif');
+}
+
+.dark-mode:root {
+  --bg: #232323;
+  --text-color: #ffffff;
+  --text-strong: #EE6E6E;
+  --active-filter: #E93E3E;
+  --card-bg: #4E4E4E;
+  --card-shadow: rgba(0, 0, 0, .5);
+  --menu: #E93E3E;
+  --border: #E3E3E3;
+
+  --texto-grande: 1.25rem;
+  --texto-corrido: 1rem;
+  --texto-menor: 0.875rem;
+  --legenda: 0.75rem;
+  --legenda-menor: 0.625rem;
+
+  --sun-mobile: url('/assets/Dark mode/sun-mobile.svg');
+  --moon-mobile: url('/assets/Dark mode/moon-mobile.svg');
+  --sun-desktop: url('/assets/Dark mode/sun-desktop.svg');
+  --moon-desktop: url('/assets/Dark mode/moon-desktop.svg');
+
+  --chamada: url('/assets/Dark mode/chamada.svg');
+
+  --portfolio: url('/assets/Dark mode/portfolio.gif');
+  --certificados: url('/assets/Dark mode/certificados.gif');
+
+  --zenit: url('/assets/Dark mode/logo-zenit.png');
+
+  --load: url('/assets/Loading/Dark mode/load.gif');
+
+  --close-modal: url('/assets/close-button-dark.svg');
+
+  --img-project: url('/assets/Dark mode/project1.png');
+
+  --em-breve: url('/assets/Dark mode/em-breve.svg');
+  --em-breve-animation: url('/assets/Dark mode/em-breve-animation.gif');
+}

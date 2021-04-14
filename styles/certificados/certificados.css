@@ -1,0 +1,79 @@
+@import 'flickity.css';
+@import 'formacao.css';
+@import 'cursos.css';
+
+body {
+  opacity: 0;
+}
+
+.modal-content {
+  background-color: var(--bg);
+  box-shadow: 30px 30px 20px var(--card-shadow);
+}
+
+.btn-close {
+  background: transparent var(--close-modal);
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-body img {
+  width: 340px;
+  border-radius: 5px;
+}
+
+.modal-footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificado-formal {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.certificado-formal i {
+  font-size: var(--legenda);
+  margin-right: .25rem;
+}
+
+.certificado-formal:hover {
+  color: var(--text-strong);
+}
+
+@media screen and (min-width: 900px) {
+  .modal-lg {
+    max-width: 800px;
+  }
+
+  .modal-body img {
+    width: 640px;
+    border-radius: 15px;
+  }
+
+  .certificado-formal i {
+    font-size: var(--texto-corrido);
+  }
+
+  .certificado-formal {
+    font-size: var(--texto-grande);
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .modal-lg {
+    max-width: 1140px;
+  }
+
+  .modal-body img {
+    width: 940px;
+  }
+}

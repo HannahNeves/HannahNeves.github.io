@@ -1,0 +1,53 @@
+@import "zenit.css";
+
+body {
+  opacity: 0;
+}
+
+.main p, li {
+  font-size: var(--texto-menor);
+  margin-top: .875rem;
+}
+
+.sobre-mim {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 2rem 0;
+}
+
+.minha-foto {
+  background-image: url('/assets/Fotos/about-me-crop.png');
+  width: 200px;
+  height: 200px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+}
+
+@media screen and (min-width: 900px) {
+  .sobre-mim {
+    width: 886px;
+    display: inline;
+    margin: 4rem 0;
+  }
+
+  .main p, li {
+    font-size: var(--texto-grande);
+  }
+
+  .main p {
+    margin-top: 1.25rem;
+  }
+
+  .minha-foto {
+    width: 336px;
+    height: 336px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    float: right;
+    margin-left: 2rem;
+  }
+}

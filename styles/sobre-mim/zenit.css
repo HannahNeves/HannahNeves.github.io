@@ -1,0 +1,68 @@
+.zenit-aerospace {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.titulo {
+  display: flex;
+  align-content: center;
+  margin: 2rem 0;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.logo-zenit {
+  background-image: var(--zenit);
+  width: 60px;
+  height: 25px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 1rem;
+}
+
+.foto-zenit {
+  background-image: url('/assets/Fotos/zenit-2018-effect.png');
+  width: 70vw;
+  height: 40vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  align-self: center;
+  border-radius: 1rem;
+}
+
+.zenit-aerospace li::before {
+  content: '✔ ';
+  color: green;
+}
+
+@media screen and (min-width: 900px) {
+  .zenit-aerospace {
+    width: 886px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 5000;
+  }
+
+  .titulo {
+    justify-content: space-between;
+  }
+
+  .logo-zenit {
+    width: 116px;
+    height: 50px;
+  }
+
+  .foto-zenit {
+    background-image: url('/assets/Fotos/zenit-2018-effect.png');
+    width: 768px;
+    height: 480px;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+  }
+}

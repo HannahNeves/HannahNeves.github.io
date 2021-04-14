@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/astronaut.svg" type="image/x-icon">
+  <title>Hannah M. Neves | Certificados</title>
+<!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<!-- BOOTSTRAP -->
+<!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!-- FONTAWESOME -->
+  <link rel="stylesheet" href="../styles/global.css">
+  <link rel="stylesheet" href="../styles/header/header.css">
+  <link rel="stylesheet" href="../styles/footer/footer.css">
+  <link rel="stylesheet" href="../styles/certificados/certificados.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="home">H</a>
+
+    <label class="switch">
+        <input type="checkbox" class="check-dark-mode" checked>
+        <span class="slider round"></span>
+    </label>
+
+    <input id="menu-hamburguer" type="checkbox" class="check-menu">
+    <label for="menu-hamburguer">
+        <div class="menu">
+            <span class="hamburguer"></span>
+        </div>
+    </label>
+    <ul class="lista-menu">
+        <li class="item-menu"><a href="index.html">Páginal Inicial</a></li>
+        <li class="item-menu"><a href="portfolio.html">Portfólio</a></li>
+        <li class="item-menu"><a href="sobre-mim.html">Sobre mim</a></li>
+        <li class="item-menu"><a href="certificados.html">Certificados</a></li>
+        <li class="item-menu"><a href="#">Contato</a></li>
+    </ul>
+    </header>
+
+  <main class="main">
+    <div class="line-bottom"><h1>Certificados</h1></div>
+
+    <section class="formacao">
+      <div class="logo-unb"></div>
+      <h3>Engenharia Aeroespacial</h3>
+      <p>Universidade de Brasília | 2015-2021</p>
+      <div role="button" class="btn-diploma" data-bs-toggle="modal" data-bs-target="#diplomaModal"><span>Veja o meu diploma</span></div>
+    </section>
+
+    <section class="cursos">
+      <h2>Cursos</h2>
+
+      <ul>
+        <li class="item-filter active" data-filter="all">Todos</li>
+        <li class="item-filter" data-filter="figma">Figma</li>
+        <li class="item-filter" data-filter="design">UX/UI Design</li>
+        <li class="item-filter" data-filter="front-end">Front-end</li>
+      </ul>
+
+      <p class="legenda-cards">Clique no <em lang="en">card</em> para visualizar o certificado</p>
+
+      <div class="cards">
+        <div class="card design" data-bs-toggle="modal" data-bs-target="#igtiModal">
+          <div class="card-content">
+            <h5>igti</h5>
+            <img src="/assets/Cursos/igti_ux.png" class="img-card"></img>
+            <h4 class="titulo-curso">Bootcamp UX Designer</h4>
+          </div>
+        </div>
+
+        <div id="curso1" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/acessibilidade-web-front-end.svg" class="img-card">
+            <h4>Acessibilidade web parte 1: tornando seu front-end inclusivo</h4>
+          </div>
+        </div>
+
+        <div id="curso2" onclick="ModalContent(this.id)" class="card design" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/acessibilidade-web-design-inclusivos.svg" class="img-card">
+            <h4>Acessibilidade web: introdução a designs inclusivos</h4>
+          </div>
+        </div>
+
+        <div id="curso3" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/arquitetura-css.svg" class="img-card">
+            <h4>Arquitetura CSS: Descomplicando os problemas</h4>
+          </div>
+        </div>
+
+        <div id="curso4" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/bootstrap-landing-page.svg" class="img-card">
+            <h4>Bootstrap 4: Criando uma landing page responsiva</h4>
+          </div>
+        </div>
+
+        <div id="curso5" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/css-grid-layout.svg" class="img-card">
+            <h4>CSS Grid: Simplificando layouts</h4>
+          </div>
+        </div>
+
+        <div id="curso6" onclick="ModalContent(this.id)" class="card figma" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/figma-design-visual-site-mobile.svg" class="img-card">
+            <h4>Figma: Design visual de um site mobile</h4>
+          </div>
+        </div>
+
+        <div id="curso7" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/posicione-elementos-com-flexbox.svg" class="img-card">
+            <h4>Flexbox: Posicione elementos na tela</h4>
+          </div>
+        </div>
+
+        <div id="curso8" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/git-github-controle-de-versao.svg" class="img-card">
+            <h4>Git e Github: Controle e compartilhe seu código</h4>
+          </div>
+        </div>
+
+        <div id="curso9" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/html5-css3-primeiros-passos.svg" class="img-card">
+            <h4>HTML5 e CSS3 parte 1: A primeira página da Web</h4>
+          </div>
+        </div>
+
+        <div id="curso10" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/html5-css3-posicionamento-listas-navegacao.svg" class="img-card">
+            <h4>HTML5 e CSS3 parte 2: Posicionamento, listas e navegação</h4>
+          </div>
+        </div>
+
+        <div id="curso11" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/html5-css3-formularios-tabelas.svg" class="img-card">
+            <h4>HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas</h4>
+          </div>
+        </div>
+
+        <div id="curso12" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/html5-css3-avancando-css.svg" class="img-card">
+            <h4>HTML5 e CSS3 parte 4: Avançando no CSS</h4>
+          </div>
+        </div>
+
+        <div id="curso13" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/javascript-programando-na-linguagem-web.svg" class="img-card">
+            <h4>JavaScript: Programando na linguagem da web</h4>
+          </div>
+        </div>
+
+        <div id="curso14" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/javascript-manipulacao-dom.svg" class="img-card">
+            <h4>JS na Web: Manipule o DOM com JavaScript</h4>
+          </div>
+        </div>
+
+        <div id="curso15" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/js-web-armazenando-dados-navegador.svg" class="img-card">
+            <h4>JS na Web: Armazenando dados no navegador</h4>
+          </div>
+        </div>
+
+        <div id="curso16" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/javascript-web-validacao-formularios-html5.svg" class="img-card">
+            <h4>JavaScript na Web: Validação de Formulários e HTML5</h4>
+          </div>
+        </div>
+
+        <div id="curso17" onclick="ModalContent(this.id)" class="card design figma" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/mobile-first-layouts-responsivos.svg" class="img-card">
+            <h4>Layouts Responsivos: Trabalhando com layouts mobile</h4>
+          </div>
+        </div>
+
+        <div id="curso18" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/react-js.svg" class="img-card">
+            <h4>React: Entendendo como a biblioteca funciona</h4>
+          </div>
+        </div>
+
+        <div id="curso19" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/react-function-components.svg" class="img-card">
+            <h4>React: Function Components, uma abordagem moderna</h4>
+          </div>
+        </div>
+
+        <div id="curso20" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/react-styled-components.svg" class="img-card">
+            <h4>React: Abstraindo seu CSS com Styled Components</h4>
+          </div>
+        </div>
+
+        <div id="curso21" onclick="ModalContent(this.id)" class="card figma" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/figma-design-system.svg" class="img-card">
+            <h4>Figma: Trabalhando na construção de um Design System</h4>
+          </div>
+        </div>
+
+        <div id="curso22" onclick="ModalContent(this.id)" class="card front-end" data-bs-toggle="modal" data-bs-target="#aluraModal">
+          <div class="card-content">
+            <h5>alura</h5>
+            <img src="/assets/Cursos/expressoes-regulares.svg" class="img-card">
+            <h4>Expressões regulares: Capturando textos de forma mágica</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <ul class="links">
+        <li class="item-links"><a href="portfolio.html">Portfólio</a></li>
+        <li class="item-links"><a href="sobre-mim.html">Sobre mim</a></li>
+        <li class="item-links"><a href="#">Contato</a></li>
+    </ul>
+
+    <ul class="contato-link">
+        <li><a href="https://www.linkedin.com/in/hannah-m-neves/" target="_blank"><div class="linkedin"></div></a></li>
+        <li><a href="mailto:hannah.m.neves@gmail.com"><div class="email"></div></a></li>
+    </ul>
+    
+    <p>&copy; 2021 Hannah Marrocos Neves | UX/UI Designer</p>
+  </footer>
+
+<!-- MODAIS -->
+<!-- FORMACAO -->
+  <div class="modal fade" id="diplomaModal" tabindex="-1" aria-labelledby="diplomaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="/assets/Cursos/Certificados/diploma.png" alt="Certificado de conclusão">
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- FORMACAO -->
+<!-- UX-IGTI -->
+  <div class="modal fade" id="igtiModal" tabindex="-1" aria-labelledby="igtiModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="/assets/Cursos/Certificados/igti_ux.png" alt="Certificado">
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- UX-IGTI -->
+<!-- ALURA -->
+  <div class="modal fade" id="aluraModal" tabindex="-1" aria-labelledby="aluraModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img class="modal-img" src="" alt="Certificado">
+        </div>
+        <div class="modal-footer">
+          <a href="" role="button" class="certificado-formal" target="_blank"><i class="fas fa-external-link-alt"></i> Certificado formal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ALURA -->
+<!-- MODAIS -->
+
+<!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- JQUERY -->
+<!-- BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<!-- BOOTSTRAP -->
+  <script src="/codes/load.js"></script>
+  <script src="/codes/darkMode.js"></script>
+  <script src="/codes/backToTop.js"></script>
+  <script src="/codes/flickity.js"></script>
+  <script src="/codes/filter.js"></script>
+  <script src="/codes/modal.js"></script>
+</body>
+</html>

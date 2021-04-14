@@ -1,0 +1,9 @@
+@import "chamada.css";
+@import "resumo-sobre-mim.css";
+@import "chamada-portfolio.css";
+@import "chamada-certificados.css";
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}

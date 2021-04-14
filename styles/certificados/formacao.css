@@ -1,0 +1,107 @@
+.formacao {
+  margin: 3.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-unb {
+  background-image: url('/assets/unb.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: .5rem;
+}
+
+.formacao h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-bottom: .25rem;
+}
+
+.formacao p {
+  font-size: var(--texto-menor);
+  margin-bottom: .5rem;
+}
+
+.btn-diploma {
+  position: relative;
+  width: auto;
+  font-weight: bold;
+  border: 2px solid var(--text-color);
+  padding: 6px 6px;
+  border-radius: 5px;
+}
+
+.btn-diploma::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 12px);
+  background-color: var(--bg);
+  transition: 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.btn-diploma:hover:before {
+  transform: scaleY(0);
+}
+
+.btn-diploma::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% - 12px);
+  background-color: var(--bg);
+  transition: 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+.btn-diploma:hover:after {
+  transform: scaleX(0);
+}
+
+.btn-diploma span {
+  position: relative;
+  z-index: 1;
+  font-size: var(--texto-menor);
+}
+
+@media screen and (min-width: 900px) {
+  .formacao {
+    width: 886px;
+  }
+
+  .logo-unb {
+    float: left;
+    width: 135px;
+    height: 60px;
+    margin-right: 1rem;
+  }
+
+  .formacao h3 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .formacao p {
+    font-size: var(--texto-corrido);
+    margin-bottom: 1rem;
+  }
+
+  .btn-diploma {
+    padding: 8px 8px;
+    display: inline-block;
+  }
+
+  .btn-diploma span {
+    font-size: var(--texto-corrido);
+  }
+}

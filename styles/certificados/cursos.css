@@ -1,0 +1,136 @@
+.cursos {
+  width: 80vw;
+}
+
+.cursos h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.cursos ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.item-filter {
+  font-size: var(--texto-menor);
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid var(--text-color);
+  border-radius: 15px;
+  line-height: 160%;
+  padding: 0 1rem;
+  margin: .5rem 0;
+  transition: background-color .2s;
+}
+
+.item-filter.active {
+  background-color: var(--active-filter);
+}
+
+.legenda-cards {
+  font-size: var(--legenda);
+  margin-bottom: .5rem;
+  font-style: italic;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 125px;
+  height: 160px;
+  background-color: var(--card-bg);
+  border-radius: 7px;
+  margin: 0px 1rem 1.25rem 0;
+  counter-increment: flickity;
+  box-shadow: 4px 4px 10px var(--card-shadow);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 140px;
+}
+
+.card h4 {
+  text-align: center;
+  width: 111px;
+  font-size: var(--legenda);
+  font-weight: bold;
+}
+
+.cards:hover .flickity-button {
+  opacity: 1;
+}
+
+.img-card {
+  width: 50px;
+  margin: .75rem 0;
+}
+
+.cards h5 {
+  text-transform: uppercase;
+  font-size: var(--legenda);
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 900px) {
+  .cursos {
+    width: 886px;
+  }
+  
+  .cursos h2 {
+    font-size: 52px;
+    font-weight: 400;
+  }
+
+  .cursos ul {
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+    margin: 0 auto 2rem;
+  }
+
+  .item-filter {
+    font-size: var(--texto-corrido);
+  }
+
+  .legenda-cards {
+    display: none;
+  }
+
+  .card {
+    width: 150px;
+    height: 190px;
+    margin: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .card-content {
+    height: 170px;
+  }
+  
+  .card h4 {
+    font-size: var(--texto-menor);
+  }
+
+  .img-card {
+    width: 60px;
+  }
+
+  .flickity-prev-next-button {
+    width: 90px;
+    height: 90px;
+  }
+
+}
