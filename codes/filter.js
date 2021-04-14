@@ -26,10 +26,10 @@ $(document).ready(function() {
     var card = cards.find('.card');
 
     if(value == 'all') {
-      card.fadeIn();
+      card.fadeIn(500);
       card.addClass('flickity');
     } else {
-      var active = $('.' + value).fadeIn();
+      var active = $('.' + value).fadeIn(500);
       card.addClass('flickity');
       card.not(active).removeClass('flickity');
       card.not(active).hide();
