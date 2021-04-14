@@ -40,7 +40,8 @@ body p {
 }
 
 * {
-  transition: background-image 0.1s ease-in-out, background-color 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out;
+  /* transition: background-image 0.1s ease-in-out, background-color 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out; */
+  transition: background-image 0.1s ease-in-out, background-color 0.5s ease-in-out;
 }
 
 .loader {
