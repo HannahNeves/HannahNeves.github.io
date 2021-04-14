@@ -80,7 +80,7 @@
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s linear 300ms, opacity 1s cubic-bezier(0, 1.07, 0, 1.02);
-  width: 90vw;
+  width: 80vw;
   height: 100vh;
   margin-top: 10rem;
 }
