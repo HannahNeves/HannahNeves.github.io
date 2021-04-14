@@ -26,7 +26,7 @@ $(document).ready(function() {
     var card = cards.find('.card');
 
     if(value == 'all') {
-      card.fadeIn(700);
+      card.fadeIn(500);
       card.addClass('flickity');
     } else {
       var active = $('.' + value).fadeIn(700);
