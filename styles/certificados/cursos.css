@@ -109,7 +109,7 @@
     height: 190px;
     margin: 2rem;
     cursor: pointer;
-    /* transition: transform 0.3s ease-in-out; */
+    transition: transform 0.3s ease-in-out;
   }
 
   .card:hover {
