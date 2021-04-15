@@ -7,6 +7,7 @@
   --card-shadow: rgba(0, 0, 0, .25);
   --menu: #2B32ED;
   --border: #B8B8B8;
+  --hover-card: #B8B8B8;
 
   --texto-grande: 1.25rem;
   --texto-corrido: 1rem;
@@ -43,6 +44,7 @@
   --card-shadow: rgba(0, 0, 0, .5);
   --menu: #E93E3E;
   --border: #E3E3E3;
+  --hover-card: #8D8D8D;
 
   --texto-grande: 1.25rem;
   --texto-corrido: 1rem;

@@ -109,11 +109,11 @@
     height: 190px;
     margin: 2rem;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
   }
 
   .card:hover {
-    transform: scale(1.1, 1.1);
+    background-color: var(--hover-card);
   }
 
   .card-content {
