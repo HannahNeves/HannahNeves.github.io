@@ -1,9 +1,5 @@
 @import "zenit.css";
 
-body {
-  opacity: 0;
-}
-
 .main p, li {
   font-size: var(--texto-menor);
   margin-top: .875rem;

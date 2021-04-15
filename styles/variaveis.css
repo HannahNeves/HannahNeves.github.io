@@ -19,10 +19,10 @@
   --sun-desktop: url('/assets/Light mode/sun-desktop.svg');
   --moon-desktop: url('/assets/Light mode/moon-desktop.svg');
 
-  --chamada: url('/assets/Light mode/chamada.svg');
+  --chamada: url('/assets/Light mode/chamada.png');
 
-  --portfolio: url('/assets/Light mode/portfolio.gif');
-  --certificados: url('/assets/Light mode/certificados.gif');
+  --portfolio: url('/assets/Light mode/portfolio.svg');
+  --certificados: url('/assets/Light mode/certificados.svg');
 
   --zenit: url('/assets/Light mode/logo-zenit.png');
 
@@ -57,10 +57,10 @@
   --sun-desktop: url('/assets/Dark mode/sun-desktop.svg');
   --moon-desktop: url('/assets/Dark mode/moon-desktop.svg');
 
-  --chamada: url('/assets/Dark mode/chamada.svg');
+  --chamada: url('/assets/Dark mode/chamada.png');
 
-  --portfolio: url('/assets/Dark mode/portfolio.gif');
-  --certificados: url('/assets/Dark mode/certificados.gif');
+  --portfolio: url('/assets/Dark mode/portfolio.svg');
+  --certificados: url('/assets/Dark mode/certificados.svg');
 
   --zenit: url('/assets/Dark mode/logo-zenit.png');
 

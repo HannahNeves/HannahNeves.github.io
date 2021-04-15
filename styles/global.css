@@ -8,6 +8,7 @@ body {
   font-family: 'Niramit', sans-serif;
   background-color: var(--bg);
   color: var(--text-color);
+  opacity: 0;
 }
 
 body strong {

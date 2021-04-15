@@ -2,10 +2,6 @@
 @import 'formacao.css';
 @import 'cursos.css';
 
-body {
-  opacity: 0;
-}
-
 .modal-content {
   background-color: var(--bg);
   box-shadow: 30px 30px 20px var(--card-shadow);
