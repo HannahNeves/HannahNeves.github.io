@@ -15,6 +15,10 @@ h2 {
   font-weight: bold;
 }
 
+.titulo a:hover {
+  color: var(--text-strong);
+}
+
 .logo-zenit {
   background-image: var(--zenit);
   width: 60px;
@@ -25,7 +29,7 @@ h2 {
 }
 
 .foto-zenit {
-  background-image: url('/assets/Fotos/zenit-2018-effect.png');
+  background-image: url('/assets/zenit.jpg');
   width: 70vw;
   height: 40vw;
   background-size: 100%;
@@ -37,6 +41,18 @@ h2 {
 .zenit-aerospace li::before {
   content: '✔ ';
   color: green;
+}
+
+p > a {
+  font-weight: bold;
+}
+
+p > a:hover {
+  color: var(--text-strong);
+}
+
+i {
+  font-size: var(--legenda);
 }
 
 @media screen and (min-width: 900px) {
@@ -59,7 +75,6 @@ h2 {
   }
 
   .foto-zenit {
-    background-image: url('/assets/zenit.png');
     width: 768px;
     height: 480px;
     border-radius: 2rem;
