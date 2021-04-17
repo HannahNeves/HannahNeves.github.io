@@ -8,6 +8,7 @@
   --menu: #2B32ED;
   --border: #B8B8B8;
   --hover-card: #B8B8B8;
+  --text-stroke: '';
 
   --texto-grande: 1.25rem;
   --texto-corrido: 1rem;
@@ -45,6 +46,7 @@
   --menu: #E93E3E;
   --border: #E3E3E3;
   --hover-card: #8D8D8D;
+  --text-stroke: black;
 
   --texto-grande: 1.25rem;
   --texto-corrido: 1rem;

@@ -1,8 +1,24 @@
 @import "zenit.css";
 
+.main h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.main h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
 .main p, li {
   font-size: var(--texto-menor);
   margin-top: .875rem;
+}
+
+.main p {
+  text-indent: 23px;
+  text-align: justify;
 }
 
 .sobre-mim {
@@ -24,18 +40,28 @@
 }
 
 @media screen and (min-width: 900px) {
-  .sobre-mim {
-    width: 886px;
-    display: inline;
-    margin: 4rem 0;
+  .main h2 {
+    font-size: 32px;
   }
 
+  .main h3 {
+    font-size: 40px;
+    font-weight: 5000;
+  }
+  
   .main p, li {
     font-size: var(--texto-grande);
   }
 
   .main p {
+    text-indent: 23px;
     margin-top: 1.25rem;
+  }
+
+  .sobre-mim {
+    width: 886px;
+    display: inline;
+    margin: 4rem 0;
   }
 
   .minha-foto {

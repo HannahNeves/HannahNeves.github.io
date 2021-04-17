@@ -10,11 +10,6 @@
   margin: 2rem 0;
 }
 
-h2 {
-  font-size: 26px;
-  font-weight: bold;
-}
-
 .titulo a:hover {
   color: var(--text-strong);
 }
@@ -52,17 +47,13 @@ p > a:hover {
 }
 
 i {
-  font-size: var(--legenda);
+  font-size: var(--legenda-menor);
+  text-indent: 0;
 }
 
 @media screen and (min-width: 900px) {
   .zenit-aerospace {
     width: 886px;
-  }
-
-  h2 {
-    font-size: 40px;
-    font-weight: 5000;
   }
 
   .titulo {
@@ -79,5 +70,9 @@ i {
     height: 480px;
     border-radius: 2rem;
     margin-bottom: 2rem;
+  }
+
+  i {
+    font-size: var(--legenda);
   }
 }

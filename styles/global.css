@@ -24,6 +24,7 @@ body p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  -webkit-text-stroke: .3px var(--text-stroke);
 }
 
 .line-bottom {
