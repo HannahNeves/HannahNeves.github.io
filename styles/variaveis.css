@@ -21,7 +21,7 @@
   --sun-desktop: url('/assets/Light mode/sun-desktop.svg');
   --moon-desktop: url('/assets/Light mode/moon-desktop.svg');
 
-  --chamada: url('/assets/Light mode/chamada-light.svg');
+  --chamada: url('/assets/Light mode/chamada.svg');
 
   --portfolio: url('/assets/Light mode/portfolio.svg');
   --certificados: url('/assets/Light mode/certificados.svg');
@@ -59,7 +59,7 @@
   --sun-desktop: url('/assets/Dark mode/sun-desktop.svg');
   --moon-desktop: url('/assets/Dark mode/moon-desktop.svg');
 
-  --chamada: url('/assets/Dark mode/chamada-dark.svg');
+  --chamada: url('/assets/Dark mode/chamada.svg');
 
   --portfolio: url('/assets/Dark mode/portfolio.svg');
   --certificados: url('/assets/Dark mode/certificados.svg');

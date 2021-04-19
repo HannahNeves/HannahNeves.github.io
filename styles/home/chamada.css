@@ -1,5 +1,6 @@
 .chamada {
   background-image: var(--chamada);
+  background-image: "";
   background-size: 100%;
   background-repeat: no-repeat;
   width: 280px;
