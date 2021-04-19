@@ -18,6 +18,8 @@ checkbox.addEventListener('change', function(){
 
   check = html.classList.toggle('dark-mode');
 
+  $('.chamada').css("background-image", + new Date().getTime());
+
   if(check == true) {
     localStorage.setItem('check', check);
   } else {
