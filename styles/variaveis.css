@@ -16,24 +16,24 @@
   --legenda: 0.75rem;
   --legenda-menor: 0.625rem;
 
-  --sun-mobile: url('/assets/Light mode/sun-mobile.svg');
-  --moon-mobile: url('/assets/Light mode/moon-mobile.svg');
-  --sun-desktop: url('/assets/Light mode/sun-desktop.svg');
-  --moon-desktop: url('/assets/Light mode/moon-desktop.svg');
+  --sun-mobile: url('/assets/LightMode/sun-mobile.svg');
+  --moon-mobile: url('/assets/LightMode/moon-mobile.svg');
+  --sun-desktop: url('/assets/LightMode/sun-desktop.svg');
+  --moon-desktop: url('/assets/LightMode/moon-desktop.svg');
 
-  --chamada: url('/assets/Light mode/chamada.svg');
+  --chamada: url('/assets/LightMode/chamada.svg');
 
-  --portfolio: url('/assets/Light mode/portfolio.svg');
-  --certificados: url('/assets/Light mode/certificados.svg');
+  --portfolio: url('/assets/LightMode/portfolio.svg');
+  --certificados: url('/assets/LightMode/certificados.svg');
 
-  --zenit: url('/assets/Light mode/logo-zenit.svg');
+  --zenit: url('/assets/LightMode/logo-zenit.svg');
 
-  --close-modal: url('/assets/Light mode/close-button.svg');
+  --close-modal: url('/assets/LightMode/close-button.svg');
 
-  --img-project: url('/assets/Light mode/project1.svg');
+  --img-project: url('/assets/LightMode/project1.svg');
 
-  --em-breve: url('/assets/Light mode/em-breve.svg');
-  --em-breve-animation: url('/assets/Light mode/em-breve-animation.gif');
+  --em-breve: url('/assets/LightMode/em-breve.svg');
+  --em-breve-animation: url('/assets/LightMode/em-breve-animation.gif');
 }
 
 .dark-mode:root {
@@ -54,22 +54,22 @@
   --legenda: 0.75rem;
   --legenda-menor: 0.625rem;
 
-  --sun-mobile: url('/assets/Dark mode/sun-mobile.svg');
-  --moon-mobile: url('/assets/Dark mode/moon-mobile.svg');
-  --sun-desktop: url('/assets/Dark mode/sun-desktop.svg');
-  --moon-desktop: url('/assets/Dark mode/moon-desktop.svg');
+  --sun-mobile: url('/assets/DarkMode/sun-mobile.svg');
+  --moon-mobile: url('/assets/DarkMode/moon-mobile.svg');
+  --sun-desktop: url('/assets/DarkMode/sun-desktop.svg');
+  --moon-desktop: url('/assets/DarkMode/moon-desktop.svg');
 
-  --chamada: url('/assets/Dark mode/chamada.svg');
+  --chamada: url('/assets/DarkMode/chamada.svg');
 
-  --portfolio: url('/assets/Dark mode/portfolio.svg');
-  --certificados: url('/assets/Dark mode/certificados.svg');
+  --portfolio: url('/assets/DarkMode/portfolio.svg');
+  --certificados: url('/assets/DarkMode/certificados.svg');
 
-  --zenit: url('/assets/Dark mode/logo-zenit.svg');
+  --zenit: url('/assets/DarkMode/logo-zenit.svg');
 
-  --close-modal: url('/assets/Dark mode/close-button.svg');
+  --close-modal: url('/assets/DarkMode/close-button.svg');
 
-  --img-project: url('/assets/Dark mode/project1.svg');
+  --img-project: url('/assets/DarkMode/project1.svg');
 
-  --em-breve: url('/assets/Dark mode/em-breve.svg');
-  --em-breve-animation: url('/assets/Dark mode/em-breve-animation.gif');
+  --em-breve: url('/assets/DarkMode/em-breve.svg');
+  --em-breve-animation: url('/assets/DarkMode/em-breve-animation.gif');
 }
