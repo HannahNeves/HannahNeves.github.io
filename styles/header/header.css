@@ -2,6 +2,13 @@
 @import "dark-mode.css";
 @import "menu.css";
 
+body::after{
+  /* Hide images */
+  position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+  /* Load images */
+  content: var(--sun-mobile) var(--moon-mobile) var(--sun-desktop) var(--moon-desktop);
+}
+
 .header {
   display: flex;
   width: 90vw;

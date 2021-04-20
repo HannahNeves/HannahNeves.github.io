@@ -1,3 +1,10 @@
+body::after{
+  /* Hide images */
+  position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+  /* Load images */
+  content: var(--img-project) var(--em-breve) var(--em-breve-animation);
+}
+
 .projects {
   width: 80vw;
   display: flex;

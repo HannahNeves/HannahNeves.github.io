@@ -3,6 +3,13 @@
 @import "chamada-portfolio.css";
 @import "chamada-certificados.css";
 
+body::after{
+  /* Hide images */
+  position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+  /* Load images */
+  content: var(--chamada) var(--portfolio) var(--certificados);
+}
+
 .text-content {
   display: flex;
   flex-direction: column;
