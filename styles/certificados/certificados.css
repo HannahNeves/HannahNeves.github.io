@@ -2,7 +2,7 @@
 @import 'formacao.css';
 @import 'cursos.css';
 
-body::after{
+html::before{
   /* Hide images */
   position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
   /* Load images */
