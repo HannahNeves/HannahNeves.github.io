@@ -3,7 +3,7 @@
 @import "chamada-portfolio.css";
 @import "chamada-certificados.css";
 
-html::before{
+html::after{
   /* Hide images */
   position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
   /* Load images */
