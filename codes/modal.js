@@ -198,6 +198,15 @@ function ModalContent(idCard) {
     return true;
   }
 
+  if(idCard == "curso23") {
+
+    $('.modal-img').attr("src", '/assets/Cursos/Certificados/design-thinking-concretizando-ideias.jpg')
+
+    $('.certificado-formal').attr("href", 'https://cursos.alura.com.br/user/hannah-m-neves/course/design-thinking-concretizando-ideias/formalCertificate');
+
+    return true;
+  }
+
   $('.modal-img').attr("src", '')
   $('.certificado-formal').attr("href", '');  
 
