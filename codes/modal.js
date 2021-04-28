@@ -207,6 +207,15 @@ function ModalContent(idCard) {
     return true;
   }
 
+  if(idCard == "curso24") {
+
+    $('.modal-img').attr("src", '/assets/Cursos/Certificados/design-thinking-viabilizando-solucoes.jpg')
+
+    $('.certificado-formal').attr("href", 'https://cursos.alura.com.br/user/hannah-m-neves/course/design-thinking-viabilizando-solucoes/formalCertificate');
+
+    return true;
+  }
+
   $('.modal-img').attr("src", '')
   $('.certificado-formal').attr("href", '');  
 
