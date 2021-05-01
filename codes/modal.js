@@ -216,6 +216,15 @@ function ModalContent(idCard) {
     return true;
   }
 
+  if(idCard == "curso25") {
+
+    $('.modal-img').attr("src", '/assets/Cursos/Certificados/ux-strategy.jpg')
+
+    $('.certificado-formal').attr("href", 'https://cursos.alura.com.br/user/hannah-m-neves/course/ux-strategy/formalCertificate');
+
+    return true;
+  }
+
   $('.modal-img').attr("src", '')
   $('.certificado-formal').attr("href", '');  
 
