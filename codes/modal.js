@@ -225,6 +225,15 @@ function ModalContent(idCard) {
     return true;
   }
 
+  if(idCard == "curso26") {
+
+    $('.modal-img').attr("src", '/assets/Cursos/Certificados/ux-usabilidade.jpg')
+
+    $('.certificado-formal').attr("href", 'https://cursos.alura.com.br/user/hannah-m-neves/course/ux-usabilidade/formalCertificate');
+
+    return true;
+  }
+
   $('.modal-img').attr("src", '')
   $('.certificado-formal').attr("href", '');  
 
