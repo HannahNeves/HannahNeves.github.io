@@ -30,7 +30,7 @@
 
   --close-modal: url('/assets/LightMode/close-button-light-mode.svg');
 
-  --img-project: url('/assets/LightMode/project1-light-mode.svg');
+  --img-project1: url('/assets/LightMode/project1-light-mode.svg');
 
   --em-breve: url('/assets/LightMode/em-breve-light-mode.svg');
   --em-breve-animation: url('/assets/LightMode/em-breve-animation-light-mode.gif');
@@ -68,7 +68,7 @@
 
   --close-modal: url('/assets/DarkMode/close-button-dark-mode.svg');
 
-  --img-project: url('/assets/DarkMode/project1-dark-mode.svg');
+  --img-project1: url('/assets/DarkMode/project1-dark-mode.svg');
 
   --em-breve: url('/assets/DarkMode/em-breve-dark-mode.svg');
   --em-breve-animation: url('/assets/DarkMode/em-breve-animation-dark-mode.gif');
